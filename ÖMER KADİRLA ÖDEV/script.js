@@ -3,7 +3,7 @@ let sonuc = document.getElementById("sonucBaslık")
 
 function yer(){
       sonuc.classList.remove("ABD","TR","UK","RUS","normal")
-      let Ulke=document.getElementById(Ulke).selectedIndex
+      let ulke=document.getElementById("Ulke").selectedIndex
 
       if(ulke==1){
       sonuc.innerHTML="Nüfus:350 milyon"
@@ -14,7 +14,7 @@ function yer(){
       if(ulke==2){
         sonuc.innerHTML="Nüfus:81 milyon"
         sonuc.classList.add("TR")
-        document.getElementById("logo").setAttribute("src","amerika.png")
+        document.getElementById("logo").setAttribute("src","rusya.png")
   
         }
         if(ulke==3){
