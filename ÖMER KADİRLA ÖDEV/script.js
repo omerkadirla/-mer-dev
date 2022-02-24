@@ -14,20 +14,20 @@ function yer(){
       if(ulke==2){
         sonuc.innerHTML="Nüfus:81 milyon"
         sonuc.classList.add("TR")
-        document.getElementById("logo").setAttribute("src","rusya.png")
+        document.getElementById("logo").setAttribute("src","turkiye.png")
   
         }
         if(ulke==3){
             sonuc.innerHTML="Nüfus:44 milyon"
             sonuc.classList.add("UK")
-            document.getElementById("logo").setAttribute("src","amerika.png")
+            document.getElementById("logo").setAttribute("src","ukrayna.png")
       
             }
       
             if(ulke==4){
                 sonuc.innerHTML="Nüfus:144 milyon"
                 sonuc.classList.add("RUS")
-                document.getElementById("logo").setAttribute("src","amerika.png")
+                document.getElementById("logo").setAttribute("src","rusya.png")
           
                 }
                console.log(ulke);
