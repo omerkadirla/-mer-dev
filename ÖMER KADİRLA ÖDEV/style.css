@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+input{
+    width: 20rem;
+}
+img{
+    width: 30rem;
+    
+}
+.CA{
+    color: rgb(99, 83, 63);
+    border: thick solid rgba(228, 162, 76, 0.726);
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+.USA{
+    color: rgb(7, 6, 4);
+    border: thick solid rgb(193, 214, 74);
+    font-size: 2rem;
+    border-radius: 2rem;
+    
+
+}
+.TRY{
+    color: rgb(180, 230, 17);
+    border: thick solid rgb(114, 178, 221);
+    font-size: 2rem;
+    border-radius: 2rem;
+
+}
